@@ -1,0 +1,25 @@
+//old personal configuration
+{
+  "env":
+  {
+    "commonjs": true,
+    "es6": true,
+    "node" : true
+
+  },
+  "extends":
+  [
+    "airbnb_base"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "sharedArrayBuffer" : "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "rules" :
+  {
+    "no-console": "off"
+  }
+}
